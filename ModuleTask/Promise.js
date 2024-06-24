@@ -6,7 +6,6 @@ function squareAfter3Seconds(number) {
     return delay(3000).then(() => number * number);
 }
 
-// Первый промис возвращает число
 const initialPromise = Promise.resolve(2);
 
 initialPromise
